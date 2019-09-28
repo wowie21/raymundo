@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+header{
+    color: white;
+    background:black;
+    padding: 30px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    padding-left: 20px;
+
+}
+
+.search{
+    
+    padding:20px;
+    background:darkgray;
+    height: 100px;
+    color: white;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+    select{
+    width: 80%;
+    height: 40px;
+}
+
+results{
+    text-align: center;
+    margin: 20px;
+    padding :  5px ;
+    margin: 20px;
+    overflow: auto;
+    vertical-align: middle;
+}
+
+
+button{
+    padding: 10px;
+    background:black;
+    color: whitesmoke;
+}
+
+

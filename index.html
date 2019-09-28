@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <Header> News Search & Bookmark</Header>
+    <div class="search">
+        <select id="country" onchange="getSelectedValue();">
+            <option value="" selected>Choose a Country</option>
+            <option value="us">United States</option>
+            <option value="gb">United Kingdom</option>
+            <option value="ca">Canada</option>
+            <option value="cn">China</option>
+            <option value="ru">Russia</option>
+            <option value="fr">France</option>
+            <option value="ph">Philippines</option>
+            <option value="ae">United Arab Emirates</option>
+            <option value="au">Australia</option>
+            <option value="ar">Argentina</option>
+            <option value="kr">South Korea</option>
+            <option value="id">Indonesia</option>
+
+        </select>
+        <button id="button">Search</button>
+    </div>
+    <div >
+        <ul id="results">
+
+        </ul>
+         
+     </div>
+
+<script>
+    function getSelectedValue()
+    {
+        var selectedValue = document.getElementById("country").value;
+        console.log(selectedValue);
+    }
+</script>
+
+
+<script src="./js/app.js"></script>
+
+
+</body>
+</html>
